@@ -1,3 +1,7 @@
+body {
+    font-family: sans-serif;
+}
+
 h1 {
     text-align: center;
 }
@@ -5,12 +9,14 @@ h1 {
 .score-board {
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     padding: 0 20px 20px 20px;
     font-size: 20px;
 }
 
 .score {
     display: flex;
+    padding: 5px;
 }
 
 .score-label {
@@ -28,4 +34,18 @@ button.rps-button {
     border-radius: 10px;
     font-weight: bold;
     font-size: 30px;
+}
+
+.winner {
+    background-color: green;
+    font-size: 30px;
+}
+
+.loser {
+    background-color: red;
+}
+
+.winner, .loser {
+    border-radius: 10px;
+    color: white;
 }
