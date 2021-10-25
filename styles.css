@@ -1,0 +1,31 @@
+h1 {
+    text-align: center;
+}
+
+.score-board {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 20px 20px 20px;
+    font-size: 20px;
+}
+
+.score {
+    display: flex;
+}
+
+.score-label {
+    margin-right: 8px;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+}
+
+button.rps-button {
+    padding: 20px;
+    margin: 0 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 30px;
+}
